@@ -25,8 +25,16 @@ pipeline {
             steps {
                 script {
                     echo "test"
-                    load("common-container.groovy")
+                    lib = load("common-container.groovy")
                     //lib.buildXcipioXms()
+                }
+            }
+        }
+        
+        stage('build Xcipio - XMS - Help'){
+            steps {
+                script {
+                    lib.buildXcipioXms()
                 }
             }
         }
