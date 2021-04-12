@@ -16,7 +16,7 @@ def buildXcipioXms() {
 
     def xcipioBuild = build(
 
-            job: "pipeline-official-build-xcipio-xms-container", propagate: false,
+            job: "pipeline-official-build-xcipio-xms-container", propagate: true,
 
             parameters: [
 
