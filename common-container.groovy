@@ -22,7 +22,7 @@ def buildXcipioXms() {
 
                     //[$class: 'NodeParameterValue', name: 'BUILD_NODE', labels: [params.BUILD_NODE], nodeEligibility: [$class: 'AllNodeEligibility']],
 
-                    //string(name: 'WINAP_VERSION', value: params.WINAP_VERSION),
+                    string(name: 'WINAP_VERSION', value: "Versão 8.0.8"),
 
                     //string(name: 'XCP_BUILD_NUMBER', value: XCP_BUILD_NUMBER),
 
@@ -36,3 +36,38 @@ def buildXcipioXms() {
 
 
 return this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
