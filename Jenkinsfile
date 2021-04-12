@@ -21,10 +21,11 @@ pipeline {
             }
         }
         
-        stage('cleaning up'){
+        stage('Load Lib'){
             steps {
                 script {
-                    echo "test" 
+                    echo "test"
+                    load("common-container.groovy")
                     //lib.buildXcipioXms()
                 }
             }
